@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta name="copyright" content="MACode ID, https://www.macodeid.com/">
+  
+  <title>Srikrithi Portfolio </title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/css/themify-icons.css">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/animate/animate.css">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/owl-carousel/owl.carousel.css">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/nice-select/css/nice-select.css">
+
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/fancybox/css/jquery.fancybox.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/css/virtual.css">
+  
+  <link rel="stylesheet" type="text/css" href="./assets/css/minibar.virtual.css">
+</head>
+<body class="theme-red">
+  
+  <!-- Back to top button -->
+  <div class="btn-back_to_top">
+    <span class="ti-arrow-up"></span>
+  </div>
+  
+  <!-- Setting button -->
+  <div class="config">
+
+    <div class="set-menu">
+      <p>Select Color</p>
+      <div class="color-bar" data-toggle="selected">
+        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
+        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
+        <span class="color-item bg-theme-green" data-class="theme-green"></span>
+        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
+        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
+      </div>
+      <select class="custom-select d-block my-2" id="change-page">
+        <option value="">Choose Page</option>
+        <option value="index">Topbar</option>
+        <option value="blog-topbar">Recommendations (Topbar)</option>
+        <option value="index-2">Minibar</option>
+        <option value="blog-minibar">Recommendations (Minibar)</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="topbar-nav fixed-top">
+    <div class="brand">
+      <img src="./assets/favicon.ico" alt="" width="30" height="30">
+    </div>
+    <h3 class="ml-1">Gram</h3>
+    <button class="btn-fab toggle-menu mr-3"><span class="ti-menu"></span></button>
+  </div>
+  
+  <!-- Minibar -->
+  <div class="minibar">
+    <div class="header">
+      <div class="brand">
+        
+      </div>
+    </div>
+    <div class="content">
+      <ul class="main-menu">
+        <li class="menu-item active">
+          <a href="#home" class="menu-link">
+            <span class="icon ti-home"></span>
+            <span class="caption">Home</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#about" class="menu-link">
+            <span class="icon ti-user"></span>
+            <span class="caption">About</span>
+          </a>
+        </li>
+
+        <li class="menu-item">
+          <a href="#portfolio" class="menu-link">
+            <span class="icon ti-briefcase"></span>
+            <span class="caption">Portfolio</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#blog" class="menu-link">
+            <span class="icon ti-book"></span>
+            <span class="caption">Recommendations</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="#contact" class="menu-link">
+            <span class="icon ti-location-pin"></span>
+            <span class="caption">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="vg-main-wrapper">
+    <div class="vg-page page-home" id="home" style="background-image: url(./assets/img/downtown_pic.jpeg);">
+      <div class="caption wow zoomInUp">
+        <h1 class="fw-normal">Welcome</h1>
+        <h2 class="fw-medium fg-theme" >I'm Srikrithi Chamarthi</h2>
+        <p class="tagline">Data Specialist</p>
+      </div>
+    </div>
+    <!----style="color: #243def !important;"-->
+    <!-- Page About -->
+    <div class="vg-page page-about" id="about">
+      <!-- Profile -->
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-place wow zoomIn">
+              <img src="./assets/img/person.jpg" alt="Photo Profile">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="caption wow fadeInRight">
+              <h2 class="fg-dark">Srikrithi Chamarthi</h2>
+              <p class="fg-theme fw-medium">Data Specialist</p>
+              <p >"Greetings! I’m a Data Engineer with a passion for bringing data to life. In the professional sphere, I’ve led projects at Deepgrid Datacentre that transformed raw data into insightful, actionable intelligence. My expertise lies in orchestrating seamless ETL workflows and enhancing data pipeline efficiency, ensuring that every byte tells a story. Following with a Master’s degree from Concordia University, where I’ve sharpened my skills in Big Data and software engineering, preparing me to tackle complex data challenges"</p>
+              <ul class="theme-list">
+                <li class="fg-dark"><b>Current Location:</b> Montréal, Canada</li>
+                <li class="fg-dark"><b>Wiling to relocate:</b> Yes :)</li>
+                <li class="fg-dark"><b>Pronouns:</b> She/Her</li>
+              </ul>
+<!--              <button class="btn btn-theme btn-rounded">Download CV</button>-->
+            </div>
+          </div>
+        </div>
+      </div> <!-- End profile -->
+      <!-- Skills -->
+      <div class="container mt-5">
+        <h1 class="text-center fg-dark wow fadeInUp">My Skills</h1>
+        <div class="row py-3">
+          <div class="col-md-6">
+            <div class="px-lg-3">
+              <h4 class="wow fadeInUp"> Data Engineering Mastery</h4>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">Languages & Scripting: Python, SQL, PySpark</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+              </div>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">CI/CD & Version Control: Jenkins, Git, Jira, Git Actions</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                </div>
+              </div>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">Big Data Processing: Apache Spark, Pyspark, Apache Airflow</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+              </div>
+              <div class="progress-wrapper wow fadeInUp">
+                <span class="caption">ETL Tools: SSIS, Informatica, Talend</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="wow fadeInUp">Cloud & Data Management</h4>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Azure Suite: ADF, Databricks, Synapse Analytics</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">AWS Services: S3, Glue, Athena, DynamoDB, Redshift, EMR
+              </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Data Visualization: Power BI, Tableau, QuickSight</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+              </div>
+            </div>
+            <div class="progress-wrapper wow fadeInUp">
+              <span class="caption">Other stack: DBT, Snowflake</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- End skills -->
+      <!-- Resume -->
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+            <h2 class="fw-normal">Experience</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">2019 - 2021</div>
+                <div class="details">
+                  <h5>Data Engineer</h5>
+                  <small class="fg-theme">Deepgrid Data Centre</small>
+                  <p>As a Data Engineer, I excel in creating efficient ETL workflows, achieving up to a 99.9% data ingestion rate. My proficiency in CI/CD pipelines and agile methodologies has led to a 20% increase in operational efficiency and a 30% reduction in risk, showcasing my ability to optimize processes and handle code with precision.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="title">2018 - 2019</div>
+                <div class="details">
+                  <h5>Data Engineer & Analyst Intern</h5>
+                  <small class="fg-theme">Nico Info Systems</small>
+                  <p>As a Data Analyst at Nico Info Systems, my expertise in Python and QuickSight led to the development of efficient healthcare interfaces and dynamic dashboards, enhancing data-driven decisions. My strategic query optimizations resulted in a 20% faster data processing, demonstrating my ability to streamline analytics and improve system performance.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6 wow fadeInRight">
+            <h2 class="fw-normal">Education</h2>
+            <ul class="timeline mt-4 pr-md-5">
+              <li>
+                <div class="title">2023</div>
+                <div class="details">
+                  <h5>Masters in Software Engineering</h5>
+                  <small class="fg-theme">Concordia University</small>
+                </div>
+              </li>
+              <li>
+                <div class="title">2019</div>
+                <div class="details">
+                  <h5>Bachelors in Computer Science</h5>
+                  <small class="fg-theme">Gandhi Institute of Technology and Management</small>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End page about -->
+    
+    <!-- Page Service -->
+    <div class="vg-page page-service" id="services">
+      <h1 class="text-center wow fadeInUp">Services</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="fas fa-sync"></span>
+              </div>
+              <h4 class="fg-theme">Data Integration Services</h4>
+              <p>I specialize in integrating data from various sources into a cohesive and functional ecosystem, ensuring data consistency and accessibility for insightful analysis.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="fas fa-database"></span>
+              </div>
+              <h4 class="fg-theme">Data Warehousing</h4>
+              <p>With a focus on building robust data warehousing solutions, I enable businesses to store and manage vast amounts of data efficiently, paving the way for advanced data analytics.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="fas fa-tools"></span>
+              </div>
+              <h4 class="fg-theme">ETL Development</h4>
+              <p>Expert in Extract, Transform, Load (ETL) processes, I streamline data workflows, enabling efficient data migration and transformation across platforms.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="fas fa-cloud"></span>
+              </div>
+              <h4 class="fg-theme">Big Data Solutions</h4>
+              <p>I design and implement scalable big data architectures, capable of handling the volume, velocity, and variety of large-scale data sets, for real-time insights and strategic advantage.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="fas fa-chart-pie"></span>
+              </div>
+              <h4 class="fg-theme">Data Analytics and Visualization</h4>
+              <p>I transform raw data into actionable insights through advanced analytics and compelling visualizations, empowering decision-makers with clear and informative data stories.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow fadeInUp">
+            <div class="card card-body">
+              <div class="iconic">
+                <span class="fas fa-code"></span>
+              </div>
+              <h4 class="fg-theme">Coding and Object-Oriented Programming (OOP)</h4>
+              <p>Skilled in writing clean, modular code using OOP principles, I enhance software maintainability and scalability.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End page services -->
+<!--   
+    <div class="vg-page page-testimonial" id="blog">
+      <div class="container">
+        <h1 class="text-center fw-normal wow fadeInUp">Recommendations</h1>
+        <div class="row justify-content-center mt-5 wow fadeInUp">
+          <div class="col-md-9">
+            <div class="owl-carousel testi-carousel">
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="img-place">
+                      <img  style="height:300px,width:500px" src="./assets/img/testimonials/testimonials_1.jpeg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="caption">
+                      <div class="testi-content">I had the pleasure of working with Varshini at JPMC, and I highly recommend her as a software engineer. Varshini consistently demonstrated exceptional technical skills and a strong commitment to delivering high-quality results. She was an excellent problem solver, tackling complex challenges with creativity and precision. Her ability to collaborate effectively and adapt quickly to new technologies made her an invaluable asset to our team. I have no doubt that Varshini will thrive in any software engineering role.</div>
+                      <div class="testi-info">
+                        <div class="tagline">
+                          <h5 class="mb-0">Rajat Ray</h5>
+                          <span class="text-muted">Executive Director at JP Morgan Chase & Co</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="img-place">
+                      <img style="height:100px,width:100px" src="./assets/img/testimonials/bhargava.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="caption">
+                      <div class="testi-content">Having worked closely with Srikrithi for over two years at Deepgrid Data Center, I wholeheartedly recommend her for any professional opportunity. As a Data Engineer, Srikrithi consistently showcased exceptional intelligence, creativity, and problem-solving skills. Her commitment to delivering high-quality work and going above and beyond expectations is truly commendable. It was a pleasure collaborating with Srikrithi, and I am confident that she would be a valuable asset to any team or project. I endorse her without any hesitation and believe in her ability to excel in her endeavors.</div>
+                      <div class="testi-info">
+
+                        <div class="tagline">
+                          <h5 class="mb-0">Bhargava Deep Guruvula</h5>
+                          <span class="text-muted">Developer at Ground Game Health,USA</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="img-place">
+                      <img style="height:100px,width:100px" src="./assets/img/testimonials/testimonials_3.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="caption">
+                      <div class="testi-content">  Collaborating with Srikrithi on data science projects at Concordia was an enriching experience. Her technical skills are impressive, and her innovative mindset sets her apart. I wholeheartedly recommend her for any data science role.</div>
+                      <div class="testi-info">
+                        <div class="tagline">
+                          <h5 class="mb-0">Vishanth Surresh</h5>
+                          <span class="text-muted">Data Engineer at Intact Financial Corporation</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    End testimonial   -->
+    <!-- Portfolio page -->
+    <div class="vg-page page-portfolio" id="portfolio">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Portfolio</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">See my work</h1>
+        <div class="filterable-button py-3 wow fadeInUp" data-toggle="selected">
+          <button class="btn btn-theme-outline selected" data-filter="*">All</button>
+          <button class="btn btn-theme-outline" data-filter=".dw">Data Warehousing</button>
+          <button class="btn btn-theme-outline" data-filter=".ml">Machine Learning</button>
+          <button class="btn btn-theme-outline" data-filter=".etl">ETL/ELT Pipeline</button>
+          <button class="btn btn-theme-outline" data-filter=".db">Visualization</button>
+          <button class="btn btn-theme-outline" data-filter=".problem">Solve Business Problem</button>
+        </div>
+
+        <div class="gridder my-3">
+          <div class="grid-item dw etl zoomIn">
+            <div class="img-place" data-src="./assets/img/work/snowflake.png" data-fancybox data-caption="<h5 class='fg-theme'>Integration Using Stages</h5> <p>Work Sample</p>">
+              <img src="./assets/img/work/snowflake.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Snowflake Warehousing</h5>
+                <p>S3 Integration with Snowflake </p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item etl db dw zoomIn">
+            <div class="img-place" data-src="./assets/img/work/azure_pipeline.png" data-fancybox data-caption="<h5 class='fg-theme'>Complete ETL Pipeline</h5> <p>Using Azure Cloud Services</p>">
+              <img src="./assets/img/work/azure_pipeline.png" alt=""></a>
+              <div class="img-caption">
+                <h5 class="fg-theme">Data Migration</h5>
+                <p>Extract, Transform and Load</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item problem ml zoomIn">
+            <div class="img-place" data-src="./assets/img/work/ML_paper.png" data-fancybox data-caption="<h5 class='fg-theme'>ML </h5> <p>Project</p>">
+              <img src="./assets/img/work/ML_paper.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Machine Learning Project</h5>
+                <p>Machine Learning, R</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End gridder -->
+      </div>
+    </div> <!-- End Portfolio page -->
+    
+    <div class="vg-page page-portfolio" id="portfolio">
+      <div class="container">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead"></div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">Certificates</h1>
+        <div class="gridder my-6">
+          <div class="grid-item programming zoomIn">
+            <div class="img-place" data-src="./assets/img/work/Azure_certification.png" data-fancybox data-caption="<h5 class='fg-theme'>Azure Data Engineer Associate</h5> <p>Microsoft (DP 203) Certificate</p>">
+              <img src="./assets/img/work/Azure_certification.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Azure Data Engineer </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item programming zoomIn"> 
+            <div class="img-place" data-src="./assets/img/work/SAP_Cerificate.png" data-fancybox data-caption="<h5 class='fg-theme'>Introduction to SAP</h5> <p>Participation Certificate</p>">
+              <img src="./assets/img/work/SAP_Cerificate.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Intro to SAP </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-item programming zoomIn">
+            <div class="img-place" data-src="./assets/img/work/Databricks.png" data-fancybox data-caption="<h5 class='fg-theme'>DataBricks certified Data Engineer Professional</h5> <p>Certificate</p>">
+              <img src="./assets/img/work/Databricks.png" alt="">
+              <div class="img-caption">
+                <h5 class="fg-theme">Databricks Data Engineer </h5>
+              </div>
+            </div>
+          </div>
+        
+          
+
+        </div> <!-- End gridder -->
+      </div>
+    </div> <!-- End Portfolio page -->    
+
+
+    <div class="vg-page page-contact" id="contact">
+      <div class="container-fluid">
+        <div class="text-center wow fadeInUp">
+          <div class="badge badge-subhead">Contact</div>
+        </div>
+        <h1 class="text-center fw-normal wow fadeInUp">Get in touch</h1>
+        <div class="vg-footer">
+          <h1 class="text-center">Virtual Folio</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 py-3">
+                <div class="footer-info">
+                  <p>Where to find me</p>
+                  <hr class="divider">
+                  <p class="fs-large fg-white">Rue Saint Marc, Montréal, Canada, H3H 2G1</p>
+                </div>
+              </div>
+              <div class="col-md-8 col-lg-6 py-3">
+                <div class="float-lg-right">
+                  <p>Contact me</p>
+                  <hr class="divider">
+                  <ul class="list-unstyled">
+                    <li>Srikrithi.chamarthi@gmail.com</li>
+                    <li><a href="https://www.linkedin.com/in/srikrithi-chamarthi/" target ="_blank">Linkedin</a></li>
+                    <li><a href="https://github.com/krithisri" target ="_blank">Github</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="row justify-content-center mt-3">
+              <!--        <div class="col-12 mb-3">-->
+              <!--          <h3 class="fw-normal text-center">Subscribe</h3>-->
+              <!--        </div>-->
+              <!--        <div class="col-lg-6">-->
+              <!--          <form class="mb-3">-->
+              <!--            <div class="input-group">-->
+              <!--              <input type="text" class="form-control" placeholder="Email address">-->
+              <!--              <input type="submit" class="btn btn-theme no-shadow" value="Subscribe">-->
+              <!--            </div>-->
+              <!--          </form>-->
+              <!--        </div>-->
+              <div class="col-12">
+                <p class="text-center mb-0 mt-4">Copyright &copy;2023. All right reserved </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--      <div class="row py-5">-->
+        <!--        <div class="col-lg-7 px-0 pr-lg-3 wow zoomIn">-->
+        <!--          <div class="vg-maps">-->
+        <!--            <div id="google-maps" style="width: 100%; height: 100%;"></div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <!--        <div class="col-lg-5">-->
+        <!--          <form class="vg-contact-form">-->
+        <!--            <div class="form-row">-->
+        <!--              <div class="col-12 mt-3 wow fadeInUp">-->
+        <!--                <input class="form-control" type="text" name="Name" placeholder="Your Name">-->
+        <!--              </div>-->
+        <!--              <div class="col-6 mt-3 wow fadeInUp">-->
+        <!--                <input class="form-control" type="text" name="Email" placeholder="Email Address">-->
+        <!--              </div>-->
+        <!--              <div class="col-6 mt-3 wow fadeInUp">-->
+        <!--                <input class="form-control" type="text" name="Subject" placeholder="Subject">-->
+        <!--              </div>-->
+        <!--              <div class="col-12 mt-3 wow fadeInUp">-->
+        <!--                <textarea class="form-control" name="Message" rows="6" placeholder="Enter message here.."></textarea>-->
+        <!--              </div>-->
+        <!--              <button type="submit" class="btn btn-theme mt-3 wow fadeInUp ml-1">Send Message</button>-->
+        <!--            </div>-->
+        <!--          </form>-->
+        <!--        </div>-->
+        <!--      </div>-->
+      </div>
+    </div> <!-- End Contact -->
+
+  </div> <!-- End main wrapper -->
+  
+  
+  <script src="./assets/js/jquery-3.5.1.min.js"></script>
+  
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="./assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+  
+  <script src="./assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  
+  <script src="./assets/vendor/isotope/isotope.pkgd.min.js"></script>
+  
+  <script src="./assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+  
+  <script src="./assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+  <script src="./assets/vendor/wow/wow.min.js"></script>
+
+  <script src="./assets/vendor/animateNumber/jquery.animateNumber.min.js"></script>
+
+  <script src="./assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  
+  <script src="./assets/js/google-maps.js"></script>
+  
+  <script src="./assets/js/minibar-virtual.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
+  <script src="https://kit.fontawesome.com/7d182cd6a4.js" crossorigin="anonymous"></script>
+</body>
+</html>
